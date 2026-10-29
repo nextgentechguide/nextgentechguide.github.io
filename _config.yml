@@ -19,7 +19,6 @@ defaults:
     values:
       layout: post
       author: NextGen Tech Guide
-      image: /assets/images/default-social-card.png
 exclude:
   - README.md
   - Gemfile
