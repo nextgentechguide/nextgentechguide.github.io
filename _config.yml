@@ -9,6 +9,7 @@ permalink: /blogs/:title/
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-feed
 author:
   name: NextGen Tech Guide
 defaults:
@@ -18,6 +19,7 @@ defaults:
     values:
       layout: post
       author: NextGen Tech Guide
+      image: /assets/images/default-social-card.png
 exclude:
   - README.md
   - Gemfile
