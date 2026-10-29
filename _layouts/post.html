@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<section class="page-hero">
+  <div class="container">
+    <p class="eyebrow">{{ page.category | default: "Technology guide" }}</p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+  </div>
+</section>
+<div class="container content-layout">
+  <article class="article-content">
+    <p class="article-meta">By {{ page.author | default: site.author.name | default: site.title }} · {{ page.date | date: "%B %-d, %Y" }}{% if page.reading_time %} · {{ page.reading_time }} minute read{% endif %}</p>
+    {{ content }}
+    <p><a href="{{ '/blogs.html' | relative_url }}">← Back to all articles</a></p>
+  </article>
+  <aside class="sidebar">
+    <h2>Explore</h2>
+    <a href="{{ '/blogs.html' | relative_url }}">All articles</a>
+    <a href="{{ '/about.html' | relative_url }}">About this site</a>
+    <p class="muted">Articles are intended for general learning. Confirm current course details and product information with the relevant provider.</p>
+  </aside>
+</div>
