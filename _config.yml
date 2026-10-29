@@ -1,5 +1,25 @@
 title: NextGen Tech Guide
-description: Practical technology tutorials and IT learning resources.
+description: Practical technology tutorials, IT learning resources, and beginner-friendly guides.
 url: "https://nextgentechguide.github.io"
+baseurl: ""
 lang: en
+timezone: Asia/Kolkata
 markdown: kramdown
+permalink: /blogs/:title/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+author:
+  name: NextGen Tech Guide
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: post
+      author: NextGen Tech Guide
+      image: /assets/tech-guide-social.png
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
