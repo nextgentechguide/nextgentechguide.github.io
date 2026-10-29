@@ -3,21 +3,23 @@ layout: default
 ---
 <section class="page-hero">
   <div class="container">
-    <p class="eyebrow">{{ page.category | default: "Technology guide" }}</p>
-    <h1>{{ page.title }}</h1>
-    {% if page.description %}<p>{{ page.description }}</p>{% endif %}
+    <p class="eyebrow">{{ page.category | default: "Technology guide" | escape }}</p>
+    <h1>{{ page.title | escape }}</h1>
+    {% if page.description %}<p>{{ page.description | escape }}</p>{% endif %}
   </div>
 </section>
 <div class="container content-layout">
   <article class="article-content">
-    <p class="article-meta">By {{ page.author | default: site.author.name | default: site.title }} · {{ page.date | date: "%B %-d, %Y" }}{% if page.reading_time %} · {{ page.reading_time }} minute read{% endif %}</p>
+    <p class="article-meta">By {% if page.author.name %}{{ page.author.name | escape }}{% else %}{{ page.author | default: site.author.name | escape }}{% endif %} · <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.reading_time %} · {{ page.reading_time }} minute read{% endif %}</p>
     {{ content }}
+    <hr>
+    <p class="muted">This guide is for general educational purposes. Check official product documentation for the latest platform details.</p>
     <p><a href="{{ '/blogs.html' | relative_url }}">← Back to all articles</a></p>
   </article>
-  <aside class="sidebar">
+  <aside class="sidebar" aria-label="More resources">
     <h2>Explore</h2>
     <a href="{{ '/blogs.html' | relative_url }}">All articles</a>
     <a href="{{ '/about.html' | relative_url }}">About this site</a>
-    <p class="muted">Articles are intended for general learning. Confirm current course details and product information with the relevant provider.</p>
+    <p class="muted">Browse practical explainers and learning guides to build your understanding step by step.</p>
   </aside>
 </div>
