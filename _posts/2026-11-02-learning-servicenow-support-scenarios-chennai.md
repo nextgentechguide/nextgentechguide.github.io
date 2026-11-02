@@ -112,3 +112,7 @@ A small portfolio can include descriptions of fictional practice scenarios and t
 ## Final thoughts
 
 A practical ServiceNow learning journey starts with understanding how support work is organised. Learn the ITSM concepts, explore records and forms, practise realistic scenarios with fictional data, and then choose a direction such as administration, development, analysis, or consulting. If you are considering a course in Chennai, compare its syllabus, practice opportunities, trainer support, and terms carefully. A steady, well-understood foundation will serve you better than trying to cover every feature in a hurry.
+
+## Related ServiceNow learning guides
+
+If you want to compare different learning approaches, read our guides on [building a ServiceNow career]({{ '/blogs/building-a-career-in-servicenow/' | relative_url }}) and [planning a ServiceNow learning journey in Bangalore]({{ '/blogs/servicenow-learning-journey-bangalore/' | relative_url }}). For another city-focused introduction, see [the beginner's roadmap for Hyderabad]({{ '/blogs/servicenow-training-in-hyderabad.html' | relative_url }}).
