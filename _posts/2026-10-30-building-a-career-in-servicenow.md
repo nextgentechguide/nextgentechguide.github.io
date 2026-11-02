@@ -99,3 +99,7 @@ If the answer is yes, you are building useful foundations. Keep practising, revi
 ## Final thoughts
 
 A ServiceNow career is built by combining process knowledge, platform familiarity, practical problem-solving, and clear communication. Begin with ITSM fundamentals, practise realistic but fictional scenarios, and then choose whether administration, development, analysis, or consulting fits your interests. A focused learning plan—and the ability to explain what you have practised—will give you a more useful foundation than trying to learn everything at once.
+
+## Related ServiceNow learning guides
+
+To connect these career skills with practical examples, read [the Chennai guide to learning through support scenarios]({{ '/blogs/learning-servicenow-support-scenarios-chennai/' | relative_url }}) and [the Bangalore learning roadmap]({{ '/blogs/servicenow-learning-journey-bangalore/' | relative_url }}). Beginners can also review [the Hyderabad ServiceNow roadmap]({{ '/blogs/servicenow-training-in-hyderabad.html' | relative_url }}).
