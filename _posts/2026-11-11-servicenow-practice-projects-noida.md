@@ -93,7 +93,7 @@ Useful questions include:
 - Are administration and development topics taught with suitable prerequisites?
 - Are the schedule, duration, fees, and any additional charges explained clearly?
 
-If you are comparing local options, you can review the [ServiceNow training programme information at TechPratham](https://www.techpratham.com/courses/servicenow-training-in-noida) alongside other providers. Check the current syllabus, practice arrangements, trainer support, and course terms directly before deciding. A course can provide structure and guidance, but your own practice is what helps turn explanations into skills.
+If you are comparing local options, you can review the [servicenow training in noida](https://www.techpratham.com/courses/servicenow-training-in-noida) alongside other providers. Check the current syllabus, practice arrangements, trainer support, and course terms directly before deciding. A course can provide structure and guidance, but your own practice is what helps turn explanations into skills.
 
 ## A study routine that fits around work or college
 
